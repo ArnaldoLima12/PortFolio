@@ -1,0 +1,79 @@
+*
+{
+    list-style: circle;
+}
+
+/* Projeto main */
+
+.titulo
+{
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.conteudo
+{
+    color: white;
+    max-width: 900px;
+    text-align: justify;
+}
+
+.conteudo > h2
+{
+    margin-bottom: 20px;
+}
+
+.conteudo > ul 
+{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.conteudo > ul > li 
+{
+    padding: 5px;
+}
+
+.conteudo > p
+{
+    margin-bottom: 10px;
+}
+
+.repo
+{   
+
+    width: fit-content;
+   
+  
+    margin: 40px auto 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+.repo > a 
+{   
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.repo a:hover
+{
+    color: rgb(202, 202, 202);
+}
+.repo > a > i
+{
+    font-size: 2rem;
+    color: #00ff08;
+}
+li > ul
+{
+    margin-left: 45px;
+  
+}
+li > ul > li
+{
+    padding: 3px;
+    list-style-type:decimal;
+}
